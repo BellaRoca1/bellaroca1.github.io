@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radio BELA | Bella Roca</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { font-family: 'Segoe UI', system-ui, sans-serif; }
+    .hero-bg {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-black/80 backdrop-blur-md fixed w-full z-50 border-b border-zinc-800">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center text-2xl font-bold">📻</div>
+        <div>
+          <h1 class="text-2xl font-bold tracking-tight">RADIO BELA</h1>
+          <p class="text-xs text-teal-400 -mt-1">Bella Roca • 95.3 FM</p>
+        </div>
+      </div>
+      <div class="hidden md:flex gap-8 text-sm">
+        <a href="#" class="hover:text-teal-400 transition">Live</a>
+        <a href="#" class="hover:text-teal-400 transition">Schedule</a>
+        <a href="#" class="hover:text-teal-400 transition">Shows</a>
+        <a href="#" class="hover:text-teal-400 transition">Music</a>
+        <a href="#" class="hover:text-teal-400 transition">Contact</a>
+      </div>
+      <button onclick="togglePlay()" id="listenBtn"
+        class="bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-full font-semibold flex items-center gap-2 transition">
+        <i class="fas fa-play"></i> LISTEN LIVE
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg h-screen flex items-center justify-center text-center pt-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-6xl md:text-7xl font-bold mb-4">Feel the Rhythm<br>of the Coast</h2>
+      <p class="text-xl md:text-2xl text-teal-300 mb-10">Bella Roca's Favorite Radio Station</p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button onclick="togglePlay()" 
+          class="bg-white text-black px-10 py-5 rounded-2xl text-xl font-semibold hover:scale-105 transition flex items-center justify-center gap-3">
+          <i class="fas fa-play text-2xl"></i> LISTEN LIVE NOW
+        </button>
+        <a href="#" class="border border-white/50 hover:bg-white/10 px-8 py-5 rounded-2xl text-xl font-medium transition">
+          View Schedule
+        </a>
+      </div>
+
+      <div class="mt-12 text-sm">
+        <p class="flex items-center justify-center gap-2">
+          <span class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></span>
+          NOW PLAYING: <span id="now-playing" class="font-medium">Summer Vibes - Bella Roca Collective</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="py-20 bg-zinc-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-teal-400 text-sm tracking-widest mb-3">ABOUT US</h3>
+          <h2 class="text-5xl font-bold leading-tight mb-6">The Sound of Bella Roca</h2>
+          <p class="text-lg text-zinc-300">
+            Radio BELA brings you the best mix of coastal vibes, local talent, 
+            indie hits, and beach classics. Broadcasting from the heart of Bella Roca 
+            since 2023.
+          </p>
+          <p class="mt-6 text-zinc-400">
+            Whether you're cruising along the coast or relaxing by the sea, we're with you 24/7.
+          </p>
+        </div>
+        <div class="bg-zinc-800 p-8 rounded-3xl">
+          <h4 class="text-2xl mb-6">95.3 FM • Online • App</h4>
+          <div class="space-y-4">
+            <div class="flex items-center gap-4">
+              <i class="fas fa-sun text-3xl text-amber-400"></i>
+              <div>
+                <p class="font-medium">Morning Waves</p>
+                <p class="text-sm text-zinc-400">6am - 10am</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-4">
+              <i class="fas fa-music text-3xl text-purple-400"></i>
+              <div>
+                <p class="font-medium">Bela Beats</p>
+                <p class="text-sm text-zinc-400">8pm - Midnight</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-12 border-t border-zinc-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">📻</div>
+          <div>
+            <p class="font-bold">Radio BELA</p>
+            <p class="text-xs text-zinc-500">Bella Roca, Costa</p>
+          </div>
+        </div>
+        
+        <div class="text-center md:text-left">
+          <p class="text-zinc-400">© 2026 Radio BELA • All Rights Reserved</p>
+        </div>
+
+        <div class="flex gap-6 text-2xl">
+          <a href="#" class="hover:text-teal-400 transition"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-teal-400 transition"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="hover:text-teal-400 transition"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="hover:text-teal-400 transition"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let isPlaying = false;
+    
+    function togglePlay() {
+      isPlaying = !isPlaying;
+      const btn = document.getElementById('listenBtn');
+      if (isPlaying) {
+        btn.innerHTML = `<i class="fas fa-pause"></i> NOW PLAYING`;
+        btn.classList.add('bg-red-500', 'hover:bg-red-600');
+      } else {
+        btn.innerHTML = `<i class="fas fa-play"></i> LISTEN LIVE`;
+        btn.classList.remove('bg-red-500', 'hover:bg-red-600');
+      }
+      alert("🎵 Radio BELA is now playing! (Demo - In real version this would open the audio player)");
+    }
+
+    // Fake now playing rotation
+    const songs = [
+      "Summer Vibes - Bella Roca Collective",
+      "Coastal Dreams - Luna Tide",
+      "Salt & Sound - Diego Marín",
+      "Golden Hour - The Reef Collective"
+    ];
+    let current = 0;
+    setInterval(() => {
+      current = (current + 1) % songs.length;
+      document.getElementById('now-playing').textContent = songs[current];
+    }, 8000);
+  </script>
+</body>
+</html>
