@@ -185,6 +185,33 @@
       "art": "https://bellaroca1.github.io/img/mb.jpg",
       "duration": 189,
       "file": "shows/KBEL Dark Thirty episode 101.mp3"
+    }  ,
+	{
+      "id": "trk-019",
+      "title": "Amy Andy Goodbye",
+      "artist": "Amy Andy Goodbye",
+      "album": "Amy Andy Goodbye",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "shows/KBEL Amy Andy Goodbye.mp3"
+    },
+	{
+      "id": "trk-020",
+      "title": "Claudia Ep 2",
+      "artist": "Claudia Ep 2",
+      "album": "Claudia Ep 2",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "shows/KBEL Claudia Ep 2.mp3"
+    },
+	{
+      "id": "trk-021",
+      "title": "Claudia Ep 3 Riley Tucker",
+      "artist": "Claudia Ep 3 Riley Tucker",
+      "album": "Claudia Ep 3 Riley Tucker",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "shows/KBEL Claudia Ep 3 Riley Tucker.mp3"
     }
   
   ]
