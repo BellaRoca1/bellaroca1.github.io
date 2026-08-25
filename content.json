@@ -212,6 +212,33 @@
       "art": "https://bellaroca1.github.io/img/mb.jpg",
       "duration": 226,
       "file": "shows/KBEL Claudia Ep 3 Riley Tucker.mp3"
+    } ,
+	{
+      "id": "trk-022",
+      "title": "KBEL promo full schedule",
+      "artist": "KBEL promo full schedule",
+      "album": "KBEL promo full schedule",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "spots/KBEL promo full schedule 2.mp3"
+    },
+	{
+      "id": "trk-023",
+      "title": "Sheriff press conference",
+      "artist": "Sheriff press conference",
+      "album": "Sheriff press conference",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "news/KBEL Sheriff press conference.mp3"
+    } ,
+	{
+      "id": "trk-024",
+      "title": "KBEL severed hand report",
+      "artist": "KBEL severed hand report",
+      "album": "KBEL severed hand report",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "news/KBEL severed hand report.mp3"
     }
   
   ]
