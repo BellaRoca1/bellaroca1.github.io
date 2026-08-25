@@ -13,7 +13,7 @@
 
   // ---- Config ----------------------------------------------------
   const CONTENT_URL = "content.json";
-  const CROSSFADE_SECONDS = 3;   // overlap length between songs
+  const CROSSFADE_SECONDS = 1.5;   // overlap length between songs
   const FADE_TICK_MS = 50;       // volume ramp resolution
   const TARGET_VOLUME = 1.0;     // max volume per deck (0..1)
   const POLL_MS = 250;           // how often we check remaining time
