@@ -158,6 +158,24 @@
       "art": "https://bellaroca1.github.io/img/mb.jpg",
       "duration": 226,
       "file": "spots/KBEL AD Santa Paloma Realty.mp3"
+    },
+    {
+      "id": "trk-018",
+      "title": "Amy Andy ep 1",
+      "artist": "Amy Andy ep 1",
+      "album": "Amy Andy ep 1",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "shows/KBEL Amy Andy ep 1.mp3"
+    },
+    {
+      "id": "trk-019",
+      "title": "Amy Andy ep 2",
+      "artist": "Amy Andy ep 2",
+      "album": "Amy Andy ep 2",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "shows/KBEL Amy Andy ep 2.mp3"
     }
   ]
   ]
