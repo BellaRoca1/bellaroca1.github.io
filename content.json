@@ -35,7 +35,7 @@
     {
       "id": "trk-004",
       "title": "Sunny Side Up",
-      "artist": "Sunny Side Up",
+      "artist": "Riley Tucker",
       "album": "Sunny Side Up",
       "art": "https://bellaroca1.github.io/img/mb.jpg",
       "duration": 205,
@@ -44,7 +44,7 @@
     {
       "id": "trk-005",
       "title": "Too Easy Again",
-      "artist": "Too Easy Again",
+      "artist": "Riley Tucker",
       "album": "Too Easy Again",
       "art": "https://bellaroca1.github.io/img/mb.jpg",
       "duration": 247,
@@ -112,6 +112,25 @@
       "art": "https://bellaroca1.github.io/img/mb.jpg",
       "duration": 226,
       "file": "spots/tracys.mp3"
+    },
+    {
+      "id": "trk-013",
+      "title": "Callister Motors",
+      "artist": "Callister Motors",
+      "album": "Callister Motors",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "spots/KBEL AD Callister.mp3"
+    }
+	,
+    {
+      "id": "trk-014",
+      "title": "Claudia's",
+      "artist": "Claudia's",
+      "album": "Claudia's",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "spots/KBEL AD Claudias.mp3"
     }
   ]
 }
