@@ -131,6 +131,34 @@
       "art": "https://bellaroca1.github.io/img/mb.jpg",
       "duration": 226,
       "file": "spots/KBEL AD Claudias.mp3"
+    },
+    {
+      "id": "trk-015",
+      "title": "Glass Harbor Golf",
+      "artist": "Glass Harbor Golf",
+      "album": "Glass Harbor Golf",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "spots/KBEL AD Glass Harbor Golf.mp3"
+    },
+    {
+      "id": "trk-016",
+      "title": "Mercy Pines Wine",
+      "artist": "Mercy Pines Wine",
+      "album": "Mercy Pines Wine",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "spots/KBEL AD Mercy Pines Wine.mp3"
+    },
+    {
+      "id": "trk-017",
+      "title": "Santa Paloma Realty",
+      "artist": "Santa Paloma Realty",
+      "album": "Santa Paloma Realty",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "spots/KBEL AD Santa Paloma Realty.mp3"
     }
+  ]
   ]
 }
