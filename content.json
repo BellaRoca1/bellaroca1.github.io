@@ -1,0 +1,117 @@
+{
+  "station": {
+    "name": "KBEL",
+    "tagline": "Bella Roca • 95.3 FM",
+    "audioBase": "https://bellaroca1.github.io/audio/"
+  },
+  "tracks": [
+    {
+      "id": "trk-001",
+      "title": "Station ID",
+      "artist": "K.B.E.L. Bella Roca",
+      "album": "Station ID",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 214,
+      "file": "ids/00.mp3"
+    },
+    {
+      "id": "trk-002",
+      "title": "Average",
+      "artist": "Patrick Patrikios",
+      "album": "Patrick Patrikios",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 198,
+      "file": "music/Average - Patrick Patrikios.mp3"
+    },
+    {
+      "id": "trk-003",
+      "title": "orget Me Not",
+      "artist": "Patrick Patrikios",
+      "album": "Patrick Patrikios",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 231,
+      "file": "music/Forget Me Not - Patrick Patrikios.mp3"
+    },
+    {
+      "id": "trk-004",
+      "title": "Good Times",
+      "artist": "Patrick Patrikios",
+      "album": "Patrick Patrikios",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 205,
+      "file": "music/Good Times - Patrick Patrikios.mp3"
+    },
+    {
+      "id": "trk-005",
+      "title": "Thinking Of Us",
+      "artist": "Patrick Patrikios",
+      "album": "Patrick Patrikios",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 247,
+      "file": "music/Thinking Of Us - Patrick Patrikios.mp3"
+    },
+    {
+      "id": "trk-006",
+      "title": "We March Together",
+      "artist": "Patrick Patrikios",
+      "album": "Patrick Patrikios",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 189,
+      "file": "music/We March Together - Patrick Patrikios.mp3"
+    },
+    {
+      "id": "trk-007",
+      "title": "Bill's Auto Shop",
+      "artist": "Bill's Auto Shop",
+      "album": "Bill's Auto Shop",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 222,
+      "file": "spots/bills_auto.mp3"
+    },
+    {
+      "id": "trk-008",
+      "title": "Carl's Crab Shack",
+      "artist": "Carl's Crab Shack",
+      "album": "Carl's Crab Shack",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 176,
+      "file": "spots/carls_crab_shack.mp3"
+    },
+    {
+      "id": "trk-009",
+      "title": "Ed's Music Shop",
+      "artist": "Ed's Music Shop",
+      "album": "Ed's Music Shop",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 258,
+      "file": "spots/eds _music_shop.mp3"
+    },
+    {
+      "id": "trk-010",
+      "title": "Spa Bella",
+      "artist": "Spa Bella",
+      "album": "Spa Bella",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 210,
+      "file": "spots/spa_bella.mp3"
+    },
+    {
+      "id": "trk-011",
+      "title": "Spa Bella 01",
+      "artist": "Spa Bella 01",
+      "album": "Spa Bella 01 ",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 193,
+      "file": "spots/spa_bella_01.mp3"
+    },
+    {
+      "id": "trk-012",
+      "title": "Tracy's",
+      "artist": "Tracy's",
+      "album": "Tracy's",
+      "art": "https://bellaroca1.github.io/img/mb.jpg",
+      "duration": 226,
+      "file": "spots/tracys.mp3"
+    }
+  ]
+}
